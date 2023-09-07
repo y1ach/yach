@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anasayfa</title>
+    <style>
+        body {
+            background-color: #1a1a1a; /* Daha hoş bir arkaplan rengi */
+            margin: 0;
+            text-align: center;
+            font-family: Arial, sans-serif; /* Yazı tipi ayarı */
+        }
+
+        .anabaşlık {
+            color: white;
+            display: flex;
+            align-items: center; /* Yatay hizalama için ekledik */
+            justify-content: center; /* Dikey hizalama için ekledik */
+            padding: 20px; /* Başlık etrafına boşluk ekledik */
+        }
+
+        .anabaşlık h1 {
+            font-size: 24px; /* Başlık yazı boyutu */
+            margin-right: 10px; /* Yazı ile resim arasındaki boşluğu ayarlamak için */
+        }
+
+        .anabaşlıkimg {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px; /* Resim boyutu */
+        }
+
+        .sosyalmedyahesapları {
+            position: absolute;
+            top: 15%;
+            left: 50%;
+            transform: translateX(-50%); /* Yatay merkezleme için */
+        }
+
+        .sosyalmedyahesapları a {
+            text-decoration: none; /* Bağlantı alt çizgisini kaldırdık */
+        }
+
+        .sosyalmedyahesaplarıimg {
+            display: inline;
+            margin: 10px; /* Bağlantılar arasına boşluk eklemek için */
+            border-radius: 2000px;
+            width: 50px;
+            height: 50px; /* Resim boyutu */
+        }
+
+        .başlıklar {
+            color: white;
+            border-radius: 2000px;
+        }
+
+        .p {
+            color: white;
+        }
+        .yeşil{
+            color: green;
+            margin: 1% 0%;
+        }
+        .boşluk{
+            color: #1a1a1a;
+        }
+    </style>
+</head>
+<body>
+    <div class="anabaşlık">
+        <h1 class="başlıklar">Yach Kimdir?/Who is Yach?</h1>
+        <img class="anabaşlıkimg" src="Yach.jpg" alt="Yach">
+    </div>
+    <hr>
+    <div class="sosyalmedyahesapları">
+        <a class="sosyalmedyahesaplarıimg" href="https://discord.com/users/935442758737465346" target="_blank"><img class="sosyalmedyahesaplarıimg" src="Discord.png" alt="Discord"></a>
+        <a class="sosyalmedyahesaplarıimg" href="https://github.com/y1ach" target="_blank"><img class="sosyalmedyahesaplarıimg" src="indir.png" alt="GitHub"></a>
+        <a class="sosyalmedyahesaplarıimg" href="https://lichess.org/@/OP_DrunkVillager" target="_blank"><img class="sosyalmedyahesaplarıimg" src="Lichess.png" alt="Lichess"></a>
+    <hr>
+        <table>
+            <th class="başlıklar">
+                <a class="yeşil" href="Hakkımda.html">Hakkımda/About Me</a>
+            </th>
+            <td class="boşluk"><a class="boşluk" href="https://www.youtube.com/watch?t=3&v=j5a0jTc9S10&feature=youtu.be">yakaladın beni</a></td>
+            <th>
+                <a class="yeşil" href="Egitimhayatı.html">Eğitim Hayatım/My Educational Journey</a>
+            </th>
+        </table>
+</body>
+</html>
